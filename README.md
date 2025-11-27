@@ -180,8 +180,7 @@ Train on additional traffic sign datasets from different regions.
 
 ## **7. Acknowledgments**
 
-- Visualization code for EDA and confusion matrix are adapted from **Infosys Springboard Course: Deep Learning for Developers** 
-  course materials
+- Visualization code for EDA and confusion matrix are adapted from **Infosys Springboard Course: Deep Learning for Developers**
 - Dataset sourced from **Kaggle**: GTSRB (German Traffic Sign Recognition Benchmark) 
 
 ## **Author**<br>

@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-Accurate traffic sign recognition is critical for safe autonomous vehicle operation. Real-world studies demonstrate that robust traffic sign detection systems directly improve autonomous driving safety by ensuring vehicles reliably obey road regulations. CNN-based sign recognition has proven particularly valuable in reducing accidents caused by missed or misinterpreted signage—a frequent failure mode in early autonomous systems.<br>
+Accurate traffic sign recognition is critical for safe autonomous vehicle operation. Real-world studies demonstrate that robust traffic sign detection systems directly improve autonomous driving safety by ensuring vehicles reliably obey road regulations. CNN-based sign recognition has proven particularly valuable in reducing accidents caused by missed or misinterpreted signage, which was a frequent failure mode in early autonomous systems.<br>
 
 This project implements a CNN-based traffic sign classifier. The network processes labeled traffic sign images and outputs a predicted class for each input.<br>
 
@@ -97,7 +97,7 @@ Captures hierarchical spatial features such as edges, shapes and color patterns 
 "Same" padding maintains feature map size for consistent downstream pooling.
 
 *Max Pooling*:<br>
-reduces spatial dimensions while retaining the most informative features, improving both efficiency and generalization.
+Reduces spatial dimensions while retaining the most informative features, improving both efficiency and generalization.
 
 *Dropout Regularization*:<br>
 Mitigates overfitting by randomly deactivating neurons during training.
@@ -132,7 +132,7 @@ The model's performance is assessed using key evaluation metrics and visual anal
 - *Accuracy Score*:<br>
     Measures the overall correctness of predictions across all classes.
 
-- *Training Vs Validation Accuracy plot*:<br>
+- *Training Vs Validation Accuracy & Training loss Vs Validation loss plots*:<br>
     Visualizes learning behavior across epochs, helping identify convergence patterns, underfitting, or overfitting trends.
 
 - *Confusion Matrix*:<br>
@@ -180,7 +180,7 @@ Train on additional traffic sign datasets from different regions.
 
 ## **7. Acknowledgments**
 
-- Visualization code for EDA, plotting Confusion matrix are adapted from **Infosys Springboard Course: Deep Learning for Developers** 
+- Visualization code for EDA and plotting Confusion matrix are adapted from **Infosys Springboard Course: Deep Learning for Developers** 
   course materials
 - Dataset sourced from **Kaggle**: GTSRB (German Traffic Sign Recognition Benchmark) 
 
